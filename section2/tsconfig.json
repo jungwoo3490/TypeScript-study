@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "outDir": "dist",
+        "strict": true,
+        // null 타입이 아닌 변수에 null 값 할당을 허용하는 옵션
+        // "strictNullChecks": false,
+        "moduleDetection": "force"
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["src"]
+}
